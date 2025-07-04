@@ -1,56 +1,64 @@
-# ⌨️ Keebs Shortcuts that I use most
+# ⌨️ Keyboard Shortcut Cheatsheet
 
 ## 🔍 Quick Navigation
-[🌐 Browser](#-browser) | [💻 VS Code](#-vs-code) | [🐧 Linux](#-linux) | [🔗 Resources](#-resources)
+[🌐 Browser](#-browser-chrome) | [💻 VS Code](#️-vs-code) | [🐧 Linux](#-linux-basics) | [🔗 Resources](#-quick-access)
 
 ---
 
-## 🌐 **Browser (Chrome/Firefox)**
-| Shortcut               | Action                          |
-|------------------------|---------------------------------|
-| `Ctrl + T`             | New tab                         |
-| `Ctrl + W`             | Close tab                       |
-| `Ctrl + Shift + T`     | Reopen closed tab               |
-| `Ctrl + Tab`           | Next tab                        |
-| `Ctrl + Shift + Tab`   | Previous tab                    |
-| `Ctrl + L`             | Focus address bar               |
-| `Ctrl + K`             | Focus search (Chrome)           |
-| `F5` / `Ctrl + R`      | Refresh page                    |
-| `Ctrl + F`             | Page search                     |
+## 🌐 **Browser (Chrome)**
+| Shortcut          | Action                  |
+|-------------------|-------------------------|
+| `Ctrl + Tab`      | Next tab                |
+| `Ctrl + T`        | New tab                 |
+| `Ctrl + W`        | Close tab               |
+| `Ctrl + Shift + T`| Reopen closed tab       |
+| `Ctrl + L`        | Focus address bar       |
+| `F5` / `Ctrl + R` | Refresh page            |
+| `Ctrl + F`        | Page search             |
 
 ---
 
-## 💻 **VS Code**
-### Navigation
-| Shortcut               | Action                          |
-|------------------------|---------------------------------|
-| `Ctrl + P`             | Quick open file                 |
-| `Ctrl + Shift + E`     | Focus explorer                 |
-| `Ctrl + G`             | Go to line                     |
-| `Ctrl + \`             | Split editor                   |
-
-### Editing
-| Shortcut               | Action                          |
-|------------------------|---------------------------------|
-| `Ctrl + D`             | Select next match              |
-| `Alt + Up/Down`        | Move line                      |
-| `Ctrl + /`             | Toggle comment                 |
-| `F2`                   | Rename symbol                  |
-
-### Debug
-| Shortcut               | Action                          |
-|------------------------|---------------------------------|
-| `F5`                   | Start debugging                |
-| `F9`                   | Toggle breakpoint              |
-| `F10`                  | Step over                      |
+## ⌨️ **VS Code**
+| Shortcut          | Action                  |
+|-------------------|-------------------------|
+| `Alt+L → Alt+O`   | Toggle Live Server      |
+| `Alt+Shift+E/X`   | Open/close file (E) or extension (X)    |
+| `Ctrl + Enter`    | New line below          |
 
 ---
 
-## 🐧 **Linux Terminal**
-### File Operations
-```bash
-ls -la              # List all files (detailed)
-cd ~                # Go to home directory
-pwd                 # Print working directory
-cp -r dir1 dir2     # Recursive copy
-rm -rf dir          # Force remove directory
+## 🐧 **Linux Basics**
+| Shortcut                 | Action                  |
+|--------------------------|-------------------------|
+| `Windows Key`            | Show activities         |
+| `Ctrl+Alt+←/→`           | Switch workspace        |
+| `Ctrl+Alt+D`             | Show desktop            |
+| `cd /home/username`      | Navigate to user folder |
+
+---
+
+## 💽 **Linux Advanced - Disk Access**
+| Command                 | Action                  |
+|-------------------------|-------------------------|
+| `lsblk`                 | List disks/partitions   |
+| `df -h`                 | Check disk usage        |
+| `cd /media/user/disk`   | Navigate to mount point |
+| `ls`                    | List contents           |
+| `mkdir NewFolder`       | Create new folder       |
+| `pwd`                   | Show current location   |
+
+---
+
+## 📝 Command Legend
+| Command | Description                      |
+|---------|----------------------------------|
+| `lsblk` | List Block Devices               |
+| `df -h` | Disk Free (human-readable)       |
+| `pwd`   | Print Working Directory          |
+| `cd`    | Change Directory                 |
+
+---
+
+## 🔗 Quick Access
+- [VS Code Shortcuts](https://code.visualstudio.com/shortcuts)
+- [Linux Command Docs](https://linux.die.net/man/)
