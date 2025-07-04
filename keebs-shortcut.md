@@ -22,6 +22,7 @@
 | Shortcut          | Action                  |
 |-------------------|-------------------------|
 | `Alt+L → Alt+O`   | Toggle Live Server      |
+| `Ctrl+Tab`        | Switch Between Files    |
 | `Alt+Shift+E/X`   | Open/close file (E) or extension (X)    |
 | `Ctrl + Enter`    | New line below          |
 
